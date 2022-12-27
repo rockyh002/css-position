@@ -1,0 +1,104 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	height: 1400px;
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: 1.7em;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: serif;
+}
+a{
+	text-decoration:none ;
+}
+a:hover{
+	text-decoration:none ;
+}
+.green{
+	width:600px ;
+	height: 300px;
+	background: green;
+	position: relative;
+}
+
+.red{
+	width:150px ;
+	height:150px;
+	border-radius: 100%;
+	background: red;
+	position:absolute ;
+	top:0%;
+	left: 10%;
+	transform: translate(100% ,50%);
+}
+.fb{
+	width: 180px;
+	position: fixed;
+	top: 40%;
+	right:-140px;
+	transition: 1s;
+}
+.fb:hover{
+	right: -5px;
+	cursor:pointer ;
+}
+.you{
+	width: 120px;
+	position: fixed;
+	top: 50%;
+	right:-100px;
+	transition: 1s;
+}
+.you:hover{
+	right: -5px;
+	cursor: pointer;
+}
+.twi{
+	width: 120px;
+	position: fixed;
+	top: 30%;
+	right: -100px;
+	transition: 1s;
+}
+.twi:hover{
+	right: -5px;
+	cursor: pointer;
+}
+.socail-icons{
+	width: 100%;
+	padding: 40px 0px;
+	text-align: center;
+}
+.socail-icons li{
+	list-style: none;
+	display: inline-block;
+}
+.socail-icons li a{
+	display:block ;
+	width: 90px;
+	height: 90px;
+	line-height: 90px;
+	border-radius: 100%;
+	background: #000;
+	color: #fff;
+	border: 1px solid #000;
+	font-size: 35px;
+	margin: 0px 10px;
+	transition: 1s;
+}
+.socail-icons li a:hover{
+	background: #fff;
+	color: #000;
+	border: 1px solid #000;
+
+}
+.socail-icons li a:focus{
+	background: #fff;
+	color: #000;
+	border: 1px solid #000;
+
+	
+
